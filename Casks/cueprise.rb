@@ -10,7 +10,7 @@ cask "cueprise" do
   desc "Desktop app for Cueprise tills and their devices"
   homepage "https://cueprise.cuesoft.io/"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Cueprise.app"
 
