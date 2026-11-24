@@ -3,7 +3,9 @@
 Homebrew casks for Cuesoft apps.
 
 ```sh
-brew install --cask cuesoftinc/tap/cueprise
+brew tap cuesoftinc/tap
+brew trust cuesoftinc/tap
+brew install --cask cueprise
 ```
 
 | Cask | App |
