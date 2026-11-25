@@ -1,9 +1,9 @@
 cask "cueprise" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.0"
-  sha256 arm:   "9d4e7762436c455578c63f8a20774a373ebe7848b088cb451bbb11754e965a25",
-         intel: "1246ec67099ad1e6be6330452441046d0ab3b6ae39045dfc9e6f9bd8a33b895c"
+  version "1.1.1"
+  sha256 arm:   "cf0e51b9db226df5d4831e0e6d988738292512b91d1ea22ba49b091986850ca8",
+         intel: "a8d6cb47cf8a86c992e2b689a218c465ad8fbe80123e5f588ab779690593b524"
 
   url "https://github.com/cuesoftinc/homebrew-tap/releases/download/cueprise-v#{version}/Cueprise-#{version}-mac-#{arch}.zip"
   name "Cueprise"
